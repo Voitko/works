@@ -1,0 +1,16 @@
+.banner {
+    @include gray-block;
+    height: 160px;
+    position: relative;
+    margin-top: 32px;
+    padding: 46px 0 0 31px;
+   
+    &__img {
+        position: absolute;
+        right: 104px;
+        bottom: 0;
+    }
+    &__logo {
+        font-size: 36px;
+    }
+}

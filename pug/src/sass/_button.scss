@@ -1,0 +1,18 @@
+.button {
+    width: 232px;
+    height: 53px;
+    border: 2px solid #000000;
+    border-radius: 2px;
+    letter-spacing: 0.12em;
+    @extend %descr;
+    cursor: pointer;
+    outline: none;
+    &_introduce {
+        margin: 0 auto;
+    }
+    &_forma {
+        margin-top: 100px;
+        background-color: $sea-color;
+    }
+    
+}

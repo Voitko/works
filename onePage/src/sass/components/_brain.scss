@@ -1,0 +1,22 @@
+.brain {
+    @include flex (row, space-between, center);
+    padding: 24px;
+    @include gray-block;
+    width: 100%;
+    height: 193px;
+    margin-top: 50px;
+    &__first {
+        margin-top: 10px 24px;
+        
+    }
+    &__title {
+        font-size: 24px;
+    }
+    &__button {
+        margin-top: 24px;
+        @include button;
+        text-align: center;
+        padding: 10px 5px;
+
+    }
+}

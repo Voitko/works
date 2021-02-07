@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="./dist/style.css")
+        link(rel="stylesheet", href="./dist/main.css")
+        title SHOPNO
+    body
+        .container
+            .introduce
+                header
+                    .introduce__logo SH 
+                        span.seacolor O 
+                        span PNO
+                    .introduce__gamburger
+                        .stick
+                        .stick
+                        .stick
+                h1.introduce__header SAY HELLO TO
+                    span.b-g-blue SHOPNO!
+                    br
+                    span.b-g-blue AGENCY
+                    span  CORPORATE SHOPNO THEME
+                button(class='button button_introduce') CONTACT US
+                img.introduce__img(src="./src/img/push.png", alt="button")
+            .about-us
+                div(class="about-us__title general-title") ABOUT US
+                div(class="about-us__descr general-descr") Lorem ipsum dolor sit amet event landing template
+                div(class="about-us__wrapper")
+                    div(class="about-us__slider")
+                        .gray-block
+                            img.about-us__img(src="./src/img/computer.png", alt="computer")
+                    .about-us__text
+                        div(class="about-us__title2 general-title-small") We Actually Do amazing works
+                        div(class="about-us__descr2 general-descr-small") A visual approach is an approach to a runway at an airport conducted under instrument flight rules. The pilot must at all times have either the airport or the preceding aircraft in approach correct sight. conducted under instrument flight rules. The pilot must at all times. <br> <br>
+                        span Preceding aircraft in approach correct sight. conducted under instrument flight rules.
+                        div(class="about-us__title2 general-title-small") Why we are the great?
+                        div(class="about-us__descr2 general-descr-small") A visual approach is an approach to a runway at an airport conducted under instrument flight rules. The preceding aircraft in approach correct sight.
+            .gallery
+                div(class="gallery__title general-title") featured works
+                div(class="gallery__descr  general-descr") Lorem ipsum dolor sit amet event landing template
+                .grid__container
+                    - var objects = ['book', 'bottle', 'cards', 'icecreem', 'nine', 'pocket']
+                        each object in objects 
+                            .wrapper 
+                                img.gallery__img(src="./src/img/" + object + ".png", alt = object)
+            .services
+                div(class="services__title general-title") our services
+                div(class="services__descr general-descr") Lorem ipsum dolor sit amet event landing template
+                .grid__container-services
+                    .blue-block
+                        .general-title-small Designing is The CooL LOVE FOR.
+                        .general-descr-small Our most popular service is our Virtual Receptionist. We know that sometimes it’s something and you middle most this job was posted less than five minutes ago, and we think it’s a good match for you. If you submit a proposal now, you’ll be one of the first candidates. You may even catch the client while they’re still online.
+                    div(class="img-wrapper img-wrapper1") 
+                        img(class="services__img services__img1" src="./src/img/1.png" alt="computer") 
+                        .servise-text
+                            .service-title cool psd Design
+                            .service-descr Our most popular service is our we know that sometimes it’s something and you middle most.
+                            .more Know More
+                                span.icon- arrow-right2
+                    div(class="img-wrapper img-wrapper2") 
+                        img(class="services__img services__img2" src="./src/img/2.png" alt="ofice") 
+                        .servise-text
+                            .service-title cool psd Design
+                            .service-descr Our most popular service is our we know that sometimes it’s something and you middle most.
+                            .more Know More
+                                span.icon- arrow-right2
+                    div(class="img-wrapper img-wrapper3") 
+                        img(class="services__img services__img3" src="./src/img/3.png" alt="work") 
+                        .servise-text
+                            .service-title cool psd Design
+                            .service-descr Our most popular service is our we know that sometimes it’s something and you middle most.
+                            .more Know More
+                                span.icon- arrow-right2
+                    div(class="img-wrapper img-wrapper4") 
+                        img(class="services__img services__img4" src="./src/img/4.png" alt="laptop") 
+                        .servise-text
+                            .service-title cool psd Design
+                            .service-descr Our most popular service is our we know that sometimes it’s something and you middle most.
+                            .more Know More
+                                span.icon- arrow-right2
+                    div(class="img-wrapper img-wrapper5") 
+                        img(class="services__img services__img5" src="./src/img/5.png" alt="bottle") 
+                        .servise-text
+                            .service-title cool psd Design
+                            .service-descr Our most popular service is our we know that sometimes it’s something and you middle most.
+                            .more Know More
+                                span.icon- arrow-right2
+            .team
+                .general-title small team
+                .general-descr Lorem ipsum dolor sit amet event landing template
+                .grid-container-team
+                    img.team__img(src="./src/img/person1.png", alt="person")
+                    .team-wrapper
+                        img.team__img(src="./src/img/person2.png", alt="person")
+                        .hint
+                            .hint__title AL RAYHAN /
+                                span.cursive UI Designer
+                            .hint-descr Lorem Ipsum is not simply is  an action designer random text It has roots in a piece.
+                            .icons
+                                -var icons = ['mail', 'facebook', 'instagram', 'twitter']
+                                each icon in icons 
+                                    span(class = 'icon-' + icon + ' ' +'icon')
+                    - var persons = ['person3', 'person4', 'person5', 'person6']
+                    each person in persons     
+                        img.team__img(src="./src/img/" + person +".png", alt="person")
+            .comments
+                div(class="comments__title general-title")  what they says
+                div(class="comments__descr general-descr")  Lorem ipsum dolor sit amet event landing template
+                .comments__wrapper
+                    .comments__slider
+                        .gray-block
+                            img.comments__img(src="./src/img/boy.png", alt="boy")
+                            .block-circle
+                                span(class="circle circle1")
+                                span(class="circle circle2")
+                                span(class="circle circle3")
+                                span(class="circle circle4")
+                    .comments__text
+                        div(class="comments__title2 general-title-small") TEXT AL RAYHAN /
+                            span.cursive UI/UX DESIGNER
+                        div(class="comments__descr2 general-descr-small") Lorem Ipsum is simply dummy text of the printing and you standard dummy know that text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        img(src="./src/img/star.png", alt="star")
+                        img(src="./src/img/star.png", alt="star")
+                        img(src="./src/img/star.png", alt="star")
+                        img(src="./src/img/star.png", alt="star")
+                        img(src="./src/img/star.png", alt="star")
+                        .button-group
+                            div(class="arrow arrow1")
+                                img.arrow__img(src="./src/img/arrow_left.svg", alt="arrow-left")
+                            div(class="arrow arrow2")
+                                img.arrow__img(src="./src/img/arrow_right.svg", alt="arrow-right")
+            .logo-block
+                .logo-block__upper
+                    img(src="./src/img/audi.png", alt="audi", class="logo-block__img logo-block__img1")
+                    img(src="./src/img/infinity.png", alt="infinity", class="logo-block__img logo-block__img2")
+                    img(src="./src/img/rko.png", alt="rko", class="logo-block__img logo-block__img")
+                .logo-block__lower
+                    .first
+                        img(src="./src/img/swan.png", alt="swan", class="logo-block__img logo-block__img3")
+                        img(src="./src/img/swanser.png", alt="swanser", class="logo-block__img logo-block__img4")
+                        img(src="./src/img/audi.png", alt="audi", class="logo-block__img logo-block__img5")
+                    .second
+                        img(src="./src/img/infinity.png" alt="infinity" class="logo-block__img logo-block__img6")
+                        img(src="./src/img/rko.png" alt="rko" class="logo-block__img logo-block__img7")
+            .forma
+                .forma__wrapper
+                    .forma__block
+                        input(type="text" placeholder="Name")
+                        input(type="text" placeholder="Subject")
+                        input(type="text" placeholder="E-mail")
+                        input(type="text" placeholder="Message")
+                        button(class="button button_forma") SEND MESSAGE
+                    .forma__block
+                        .forma__text Adress line 1
+                        .forma__text Adress line 2
+                        .forma__text Phone:
+                            a.forma__link(href="tel:+548945645") +945485645
+                        .forma__text Fax:
+                            a.forma__link(href="tel:+45645654546") +456456 54546
+                        div(class='forma__text forma__text_last') Web:
+                            a.forma__link(href="www.designagency.net") www.designagency.net
+                        .forma__text E-mail: info@designagency.net
+                        .forma__map
+                            iframe(src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.651839447461!2d30.51983701573132!3d50.44758537947498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce56b2456d3b%3A0xd062ae171b57e947!2z0YPQuy4g0JrRgNC10YnQsNGC0LjQuiwg0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1600864033844!5m2!1sru!2sua" width="100%" height="150px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0")
+            footer.footer
+                .footer__text FOLLOW US
+                .footer__social
+                    .social-square
+                        span(class='icon-mail social')
+                    .social-square
+                        span(class='icon-facebook social')
+                    .social-square
+                        span(class='icon-instagram social')
+                    .social-square
+                        span(class='icon-twitter social')
+                .footer__descr Copyright Masum Parvej, All Rights Reserved
+
+                        
+                    
+
+
+
+
+
+
+            
+
+                        
+
+                        
+                        
+                        
+
+

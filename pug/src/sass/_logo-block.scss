@@ -1,0 +1,17 @@
+.logo-block {
+    min-height: 250px;
+    @include flex(column, center,center);
+    @extend %padding;
+    @include media(mobile, 576px) {
+        @include flex(row, center,center);
+    }
+    &__lower {
+        @include flex(row, center,center);
+        @include media(laptop, 992px) {
+            @include flex(column, center,center);
+           
+        }
+    }
+    
+   
+}

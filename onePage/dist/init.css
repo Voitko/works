@@ -1,0 +1,639 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500;600;700;800&display=swap");
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/_general\.scss}line{font-family:\000031}}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/_general\.scss}line{font-family:\000036}}
+ul {
+  list-style-type: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/_general\.scss}line{font-family:\000039}}
+html, body {
+  height: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/_general\.scss}line{font-family:\0000312}}
+body {
+  padding-top: 24px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/_general\.scss}line{font-family:\0000315}}
+.title {
+  color: black;
+  font-family: "Baloo Bhai 2", cursive;
+  font-style: normal;
+  font-weight: 900;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/_general\.scss}line{font-family:\0000322}}
+.descr {
+  font-family: "Baloo Bhai 2", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: black;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/_general\.scss}line{font-family:\0000330}}
+.square {
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  width: 64px;
+  height: 64px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/_general\.scss}line{font-family:\0000336}}
+.block-name {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/_general\.scss}line{font-family:\0000338}}
+.block-name__title {
+  margin-right: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/_general\.scss}line{font-family:\0000341}}
+.block-name__descr {
+  margin-right: 30px;
+  color: gray;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/components\/_main\.scss}line{font-family:\000031}}
+.main {
+  margin-left: 236px;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-direction: row;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/components\/_main\.scss}line{font-family:\000036}}
+.left-side {
+  width: 55%;
+  height: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/components\/_main\.scss}line{font-family:\000039}}
+.left-side .title__courses {
+  margin: 40px 0 16px 0;
+  font-size: 24px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/components\/_main\.scss}line{font-family:\0000314}}
+.left-side .left-side-small {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/components\/_main\.scss}line{font-family:\0000316}}
+.left-side .left-side-small .arrows {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/components\/_main\.scss}line{font-family:\0000321}}
+.left-side .left-side-small .arrows .arrow_back {
+  border: 2px solid black;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  margin: 0 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/components\/_main\.scss}line{font-family:\0000329}}
+.left-side .left-side-small .arrows .arrow_forward {
+  border: 2px solid black;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/components\/_main\.scss}line{font-family:\0000338}}
+.left-side .left-side-small .small-banner {
+  padding: 8px 0 8px 9px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 24px;
+  background-color: #F5F5F7;
+  border-radius: 14px;
+  width: 82%;
+  height: 80px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/components\/_main\.scss}line{font-family:\0000345}}
+.left-side .left-side-small .small-banner .button {
+  border-radius: 8px;
+  background-color: #F5F5F7;
+  border: 2px solid black;
+  width: 120px;
+  height: 40px;
+  font-family: "Baloo Bhai 2", cursive;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 15px;
+  color: black;
+  text-align: center;
+  padding: 12px 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/_mixin\.scss}line{font-family:\0000327}}
+.left-side .left-side-small .small-banner .button_fill {
+  background-color: black;
+  color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/components\/_main\.scss}line{font-family:\0000348}}
+.left-side .left-side-small .small-banner__text {
+  margin-right: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/components\/_main\.scss}line{font-family:\0000351}}
+.left-side .left-side-small .small-banner__procent {
+  width: 40px;
+  height: 40px;
+  border-bottom: 3px solid black;
+  border-left: 3px solid black;
+  border-radius: 100%;
+  text-align: center;
+  padding-top: 8px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/components\/_main\.scss}line{font-family:\0000361}}
+.left-side .left-side-small .small-banner .square {
+  padding: 15px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/components\/_main\.scss}line{font-family:\0000368}}
+.right-side {
+  width: 45%;
+  height: 100%;
+  min-width: 449px;
+  padding: 0 60px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/components\/_main\.scss}line{font-family:\0000373}}
+.right-side__first {
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-direction: row;
+  margin-top: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/components\/_main\.scss}line{font-family:\0000377}}
+.right-side__icon {
+  position: relative;
+  margin-right: 20px;
+  transform: translateY(25%);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/components\/_main\.scss}line{font-family:\0000381}}
+.right-side__icon:after {
+  content: "";
+  width: 14px;
+  height: 14px;
+  background: #F45B5B;
+  display: inline-block;
+  border-radius: 100%;
+  position: absolute;
+  top: -40%;
+  right: -30%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/components\/_main\.scss}line{font-family:\0000393}}
+.right-side__image {
+  border-radius: 8px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/components\/_main\.scss}line{font-family:\0000396}}
+.right-side__arrow {
+  transform: translateY(25%);
+  margin-left: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/components\/_main\.scss}line{font-family:\00003100}}
+.right-side .input-container {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/components\/_main\.scss}line{font-family:\00003102}}
+.right-side .input-container__input {
+  outline: none;
+  border-radius: 8px;
+  background: #F5F5F7;
+  border: none;
+  width: 300px;
+  height: 40px;
+  margin-right: 36px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/components\/_main\.scss}line{font-family:\00003111}}
+.right-side .input-container__icon {
+  position: absolute;
+  left: 5%;
+  top: 25%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/components\/_main\.scss}line{font-family:\00003117}}
+.right-side__second {
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-direction: row;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/components\/_main\.scss}line{font-family:\00003119}}
+.right-side__second .gray-block {
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-direction: row;
+  background-color: #F5F5F7;
+  border-radius: 14px;
+  width: 100%;
+  height: 96.33px;
+  margin: 24px 24px 24px 0;
+  padding: 4px 35px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/components\/_main\.scss}line{font-family:\00003126}}
+.right-side__second .gray-block__title {
+  font-size: 64px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/components\/_main\.scss}line{font-family:\00003129}}
+.right-side__second .gray-block__descr {
+  margin: 25px 0 0 12px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/components\/_main\.scss}line{font-family:\00003135}}
+.right-side .block-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/components\/_main\.scss}line{font-family:\00003137}}
+.right-side .block-wrapper .gray-block-small {
+  position: relative;
+  background-color: #F5F5F7;
+  border-radius: 14px;
+  width: 88px;
+  height: 32px;
+  text-align: center;
+  padding: 10px 30px 35px 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/components\/_main\.scss}line{font-family:\00003144}}
+.right-side .block-wrapper .gray-block-small__arrow {
+  position: absolute;
+  top: 25%;
+  right: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/components\/_main\.scss}line{font-family:\00003151}}
+.right-side .title__statistic {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/components\/_nav\.scss}line{font-family:\000031}}
+.nav {
+  width: 132px;
+  position: fixed;
+  top: 24px;
+  bottom: 24px;
+  left: 32px;
+  background: black;
+  border-radius: 24px;
+  box-shadow: 11px 10px 34px -10px black;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/components\/_nav\.scss}line{font-family:\0000310}}
+.nav__inner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/components\/_nav\.scss}line{font-family:\0000315}}
+.nav__title {
+  font-size: 64px;
+  line-height: 102px;
+  color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/components\/_nav\.scss}line{font-family:\0000320}}
+.nav__button-group {
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-direction: column;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/components\/_nav\.scss}line{font-family:\0000323}}
+.nav__icon {
+  color: white;
+  font-size: 26px;
+  margin-bottom: 64px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/components\/_nav\.scss}line{font-family:\0000327}}
+.nav__icon:last-of-type {
+  margin-bottom: 40px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/components\/_banner\.scss}line{font-family:\000031}}
+.banner {
+  background-color: #F5F5F7;
+  border-radius: 14px;
+  height: 160px;
+  position: relative;
+  margin-top: 32px;
+  padding: 46px 0 0 31px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/components\/_banner\.scss}line{font-family:\000038}}
+.banner__img {
+  position: absolute;
+  right: 104px;
+  bottom: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/components\/_banner\.scss}line{font-family:\0000313}}
+.banner__logo {
+  font-size: 36px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/components\/_gray-block\.scss}line{font-family:\000031}}
+.gray-block-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/components\/_gray-block\.scss}line{font-family:\000033}}
+.gray-block-container .gray-block {
+  background-color: #F5F5F7;
+  border-radius: 14px;
+  width: 100%;
+  height: 80px;
+  margin: 11px 0 16px 0;
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/components\/_gray-block\.scss}line{font-family:\0000310}}
+.gray-block-container .gray-block__button {
+  border-radius: 8px;
+  background-color: #F5F5F7;
+  border: 2px solid black;
+  width: 120px;
+  height: 40px;
+  font-family: "Baloo Bhai 2", cursive;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 15px;
+  color: black;
+  text-align: center;
+  padding: 12px 30px;
+  padding: 10px 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/_mixin\.scss}line{font-family:\0000327}}
+.gray-block-container .gray-block__button_fill {
+  background-color: black;
+  color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/components\/_gray-block\.scss}line{font-family:\0000314}}
+.gray-block-container .gray-block .square {
+  padding: 15px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/_diagram\.scss}line{font-family:\000031}}
+.diagram {
+  margin-top: 40px;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/_diagram\.scss}line{font-family:\000034}}
+.diagram .diagram-week {
+  margin-left: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/_diagram\.scss}line{font-family:\000038}}
+.diagram .diagram-week .diagram__text .circle {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: black;
+  border-radius: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/_diagram\.scss}line{font-family:\0000315}}
+.diagram .diagram-week .diagram__text .first__circle {
+  position: absolute;
+  left: 4%;
+  bottom: 17%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/_diagram\.scss}line{font-family:\0000320}}
+.diagram .diagram-week .diagram__text .second__circle {
+  position: absolute;
+  left: 18%;
+  bottom: 47%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/_diagram\.scss}line{font-family:\0000325}}
+.diagram .diagram-week .diagram__text .third__circle {
+  position: absolute;
+  left: 33%;
+  bottom: 65%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/_diagram\.scss}line{font-family:\0000330}}
+.diagram .diagram-week .diagram__text .fourth__circle {
+  position: absolute;
+  left: 52%;
+  bottom: 39%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/_diagram\.scss}line{font-family:\0000335}}
+.diagram .diagram-week .diagram__text .fifth__circle {
+  position: absolute;
+  right: 30%;
+  top: -4%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/_diagram\.scss}line{font-family:\0000341}}
+.diagram .diagram-week .diagram__text .sixth__circle {
+  position: absolute;
+  right: 19%;
+  top: 16%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/_diagram\.scss}line{font-family:\0000346}}
+.diagram .diagram-week .diagram__text .seventh__circle {
+  position: absolute;
+  right: 6%;
+  top: 27%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/_diagram\.scss}line{font-family:\0000351}}
+.diagram .diagram-week .diagram__text .hint {
+  display: inline-block;
+  width: 50px;
+  height: 27px;
+  background-color: #e8e3e3;
+  border-radius: 4px;
+  padding: 2px;
+  text-align: center;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.2);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/_diagram\.scss}line{font-family:\0000362}}
+.diagram .diagram-week .diagram__text .first__hint {
+  position: absolute;
+  left: 2%;
+  bottom: 27%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/_diagram\.scss}line{font-family:\0000367}}
+.diagram .diagram-week .diagram__text .second__hint {
+  position: absolute;
+  left: 16%;
+  bottom: 57%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/_diagram\.scss}line{font-family:\0000372}}
+.diagram .diagram-week .diagram__text .third__hint {
+  position: absolute;
+  left: 31%;
+  bottom: 75%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/_diagram\.scss}line{font-family:\0000377}}
+.diagram .diagram-week .diagram__text .fourth__hint {
+  position: absolute;
+  left: 50%;
+  bottom: 49%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/_diagram\.scss}line{font-family:\0000382}}
+.diagram .diagram-week .diagram__text .fifth__hint {
+  position: absolute;
+  right: 27%;
+  top: -17%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/_diagram\.scss}line{font-family:\0000387}}
+.diagram .diagram-week .diagram__text .sixth__hint {
+  position: absolute;
+  right: 15%;
+  top: 2%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/_diagram\.scss}line{font-family:\0000392}}
+.diagram .diagram-week .diagram__text .seventh__hint {
+  position: absolute;
+  right: 2%;
+  top: 12%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/_diagram\.scss}line{font-family:\0000397}}
+.diagram .diagram-week .diagram__text .triangle {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 20px solid #e8e3e3;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/_diagram\.scss}line{font-family:\00003105}}
+.diagram .diagram-week .diagram__text .first__triangle {
+  position: absolute;
+  left: 4%;
+  bottom: 23%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/_diagram\.scss}line{font-family:\00003110}}
+.diagram .diagram-week .diagram__text .second__triangle {
+  position: absolute;
+  left: 18%;
+  bottom: 53%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/_diagram\.scss}line{font-family:\00003115}}
+.diagram .diagram-week .diagram__text .third__triangle {
+  position: absolute;
+  left: 33%;
+  bottom: 71%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/_diagram\.scss}line{font-family:\00003120}}
+.diagram .diagram-week .diagram__text .fourth__triangle {
+  position: absolute;
+  left: 53%;
+  bottom: 45%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/_diagram\.scss}line{font-family:\00003125}}
+.diagram .diagram-week .diagram__text .fifth__triangle {
+  position: absolute;
+  right: 28%;
+  top: -12%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/_diagram\.scss}line{font-family:\00003130}}
+.diagram .diagram-week .diagram__text .sixth__triangle {
+  position: absolute;
+  right: 16%;
+  top: 7.5%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/_diagram\.scss}line{font-family:\00003135}}
+.diagram .diagram-week .diagram__text .seventh__triangle {
+  position: absolute;
+  right: 3%;
+  top: 17%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/_diagram\.scss}line{font-family:\00003142}}
+.diagram .diagram-line-container {
+  position: relative;
+  width: 90%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/_diagram\.scss}line{font-family:\00003146}}
+.diagram .diagram-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 5%;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/_diagram\.scss}line{font-family:\00003151}}
+.diagram__border {
+  border: 1px solid #F5F5F7;
+  width: 100%;
+  margin-left: 21px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/_diagram\.scss}line{font-family:\00003156}}
+.diagram__line {
+  position: absolute;
+  bottom: 18%;
+  width: 95%;
+  left: 5%;
+  height: 85%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/components\/_brain\.scss}line{font-family:\000031}}
+.brain {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 24px;
+  background-color: #F5F5F7;
+  border-radius: 14px;
+  width: 100%;
+  height: 193px;
+  margin-top: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/components\/_brain\.scss}line{font-family:\000038}}
+.brain__first {
+  margin-top: 10px 24px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/components\/_brain\.scss}line{font-family:\0000312}}
+.brain__title {
+  font-size: 24px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/components\/_brain\.scss}line{font-family:\0000315}}
+.brain__button {
+  margin-top: 24px;
+  border-radius: 8px;
+  background-color: #F5F5F7;
+  border: 2px solid black;
+  width: 120px;
+  height: 40px;
+  font-family: "Baloo Bhai 2", cursive;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 15px;
+  color: black;
+  text-align: center;
+  padding: 12px 30px;
+  text-align: center;
+  padding: 10px 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/16\/src\/sass\/_mixin\.scss}line{font-family:\0000327}}
+.brain__button_fill {
+  background-color: black;
+  color: white;
+}
+
+/*# sourceMappingURL=init.css.map */

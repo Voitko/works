@@ -1,0 +1,156 @@
+.main {
+    margin-left: 236px;
+    height: 100%;
+    @include flex (row);
+}
+.left-side {
+    width: 55%;
+    height: 100%;
+    .title__courses {
+        margin: 40px 0 16px 0;
+        font-size: 24px;
+        
+    }
+    .left-side-small {
+        position: relative;
+        .arrows {
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            .arrow_back {
+                border: 2px solid $black;
+                border-radius: 100%;
+                width: 40px;
+                height: 40px;
+                padding: 5px;
+                margin: 0 20px;
+            }
+            .arrow_forward {
+                border: 2px solid $black;
+                border-radius: 100%;
+                width: 40px;
+                height: 40px;
+                padding: 5px;
+            }
+        }
+       
+        .small-banner {
+            padding: 8px 0 8px 9px;
+            @include flex (row, space-between, center);
+            margin-top: 24px;
+            @include gray-block;
+            width: 82%;
+            height: 80px;
+            .button {
+                @include button;
+            }
+            &__text {
+                margin-right: 20px;
+            }
+            &__procent {
+                width: 40px;
+                height: 40px;
+                border-bottom: 3px solid $black;
+                border-left: 3px solid $black;
+                border-radius: 100%;
+                text-align: center;
+                padding-top: 8px;
+                
+            }
+            .square {
+                padding: 15px;
+            }
+        }
+    }
+    
+}
+.right-side {
+    width: 45%;
+    height: 100%;
+    min-width: 449px;
+    padding: 0 60px;
+    &__first {
+        @include flex (row);
+        margin-top: 30px;
+    }
+    &__icon {
+        position: relative;
+        margin-right: 20px;
+        transform: translateY(25%);
+        &:after {
+            content: "";
+            width: 14px;
+            height: 14px;
+            background: #F45B5B;
+            display: inline-block;
+            border-radius: 100%;
+            position: absolute;
+            top: -40%;
+            right: -30%;
+        }
+    }
+    &__image {
+        border-radius: 8px;
+    }
+    &__arrow {
+        transform: translateY(25%);
+        margin-left: 10px;
+    }
+    .input-container {
+        position: relative;
+        &__input {
+            outline: none;
+            border-radius: 8px;
+            background: $gray;
+            border: none;
+            width: 300px;
+            height: 40px;
+            margin-right: 36px;
+        }
+        &__icon {
+            position: absolute;
+            left: 5%;
+            top: 25%;
+        }
+    }
+    &__second {
+        @include flex (row);
+        .gray-block {
+            @include flex (row);
+            @include gray-block;
+            width: 100%;
+            height: 96.33px;
+            margin: 24px 24px 24px 0;
+            padding: 4px 35px;
+            &__title {
+                font-size: 64px;
+            }
+            &__descr {
+                margin: 25px 0 0 12px;
+
+            }
+        }
+    }
+    .block-wrapper {
+        @include flex (row, space-between, center);
+        .gray-block-small {
+            position: relative;
+            @include gray-block;
+            width: 88px;
+            height: 32px;
+            text-align: center;
+            padding: 10px 30px 35px 10px;
+            &__arrow {
+                position: absolute;
+                top: 25%;
+                right: 0;
+            }
+        }
+    }
+    .title__statistic {
+        font-size: 24px;
+        margin-bottom: 16px;
+    }
+  
+}

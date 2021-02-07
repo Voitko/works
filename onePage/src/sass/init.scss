@@ -1,0 +1,11 @@
+@import "variables";
+@import "mixin";
+@import "general";
+@import "./components/main";
+@import "./components/nav";
+@import "./components/banner";
+@import "./components/gray-block";
+@import "diagram";
+@import "./components/brain";
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500;600;700;800&display=swap');

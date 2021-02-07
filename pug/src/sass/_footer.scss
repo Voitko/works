@@ -1,0 +1,34 @@
+.footer {
+    min-height: 250px;
+    background-color: #262b2e;
+    @include flex(column, center, center);
+    &__text {
+        @extend %descr;
+        font-size: 20px;
+        color: $white-color;
+    }
+    &__social {
+        margin-top: 15px;
+        display: flex;
+        flex-direction: row;
+        .social-square {
+            width: 46px;
+            height: 40px;
+            background-color: #8a8a8a;
+            text-align: center;
+            padding-top: 10px;
+            margin-right: 10px;
+            &:first-of-type {
+                background-color: $sea-color;
+            }
+            .social {
+                color: $white-color;
+            }
+        }
+    }
+    &__descr {
+        @extend %descr;
+        margin-top: 15px;
+        color:rgba(255, 255, 255, 0.5);
+    }
+}

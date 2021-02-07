@@ -1,0 +1,70 @@
+.team {
+    min-height: 500px;
+    padding: 30px;
+    &__img {
+        width: 100%;
+    }
+    .grid-container-team {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(auto, 1fr));
+        gap: 30px;
+        justify-content: center;
+        @include media(laptop, 992px) {
+            grid-template-columns: repeat(2, minmax(auto, 1fr));
+        }
+        @include media(laptop, px) {
+            grid-template-columns: minmax(auto, 400px);
+        }
+        .team-wrapper {
+            position: relative;
+            .hint {
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                left: 50%;
+                transform: translateX(-50%);
+                line-height: 30px;
+                width: 90%;
+                background-color: $sea-color;
+                box-shadow: 3px 6px 16px 0px rgba(19,19,21,0.18);
+                padding: 10px;
+                &:before {
+                    content: '';
+                    position: absolute;
+                    top: -9%;
+                    left: 5%;
+                    display: inline-block;
+                    width: 0;
+                    height: 0;
+                    border-left: 10px solid transparent;
+                    border-right: 10px solid transparent;
+                    border-bottom: 20px solid $sea-color;
+                }
+                .hint-descr {
+                    font-size: 15px;
+                    line-height: 20px;
+                    @include media(tablet, 768px) {
+                        font-size: 10px;
+                    }
+                }
+                .icons {
+                    margin-top: 10px;
+                    .icon {
+                        margin-right: 10px;
+                        font-size: 13px;
+                        @include media(tablet, 768px) {
+                            font-size: 10px;
+                        }
+                    }
+                }
+                &__title {
+                    @extend %title;
+                    @include media(tablet, 768px) {
+                        font-size: 12px;
+                        line-height: 20px;
+                    }
+                }
+            }
+        }
+    }
+}

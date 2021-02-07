@@ -1,0 +1,95 @@
+.comments {
+    background-color: #f9fbfb;
+    min-height: 680px;
+    padding: 30px 30px 100px 30px;
+    @include media(tablet, 768px) {
+       padding-bottom: 120px;
+    }
+    &__text {
+        width: 100%;
+        padding: 70px 30px;
+        background-color: hsl(220, 8%, 92%);
+        border-radius: 3px;
+        position: relative;
+        text-align: center;
+        .button-group {
+            position: absolute;
+            right: 0;
+            bottom: -30%;
+            .arrow {
+                display: inline-block;
+                width: 53px;
+                height: 53px;
+                box-shadow: 3px 7px 11px 0px rgba(19,19,21,0.05);
+                border-radius: 3px;
+                text-align: center;
+                padding-top: 15px;
+                &__img {
+                    width: 25px;
+                    height: 25px;
+                }
+            }
+            .arrow1 {
+                background-color: #ffffff;
+            }
+            .arrow2 {
+                background-color: $sea-color;
+                margin-left: 20px;
+            }
+        }
+    }
+    &__title2 {
+        margin-bottom: 10px;
+    }
+    &__descr2  {
+        line-height: 25px;
+    }
+    &__wrapper {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        justify-content: start;
+        align-items: center;
+        gap: 15px;
+        @include media(laptop, 992px) {
+            justify-content: center;
+        }
+        @include media(laptop, 992px) {
+            gap: 55px;
+        }
+        .gray-block {
+            position: relative;
+            .block-circle {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                .circle {
+                    margin-top: 25px;
+                    width: 10px;
+                    height: 10px;
+                    background-color: #d0d0d0;
+                    border-radius: 3px;
+                    margin-right: 10px;
+                }
+                .circle2 {
+                    background-color: $sea-color;
+                }
+            }
+         
+        }
+    }
+    &__slider {
+        justify-self: start;
+        align-self: start;
+        @include media(laptop, 992px) {
+            justify-self: center;
+            align-self: center;
+        }
+        
+    }
+    &__img {
+       width: 90%;
+       height: 100%;
+    }
+   
+}

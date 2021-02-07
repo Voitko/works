@@ -1,0 +1,755 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&family=Montserrat:wght@300;400;700&display=swap");
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_reset\.scss}line{font-family:\000031}}
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_reset\.scss}line{font-family:\000035}}
+ul {
+  list-style: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_reset\.scss}line{font-family:\000038}}
+a {
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_reset\.scss}line{font-family:\0000311}}
+h1, h2, h3 {
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_reset\.scss}line{font-family:\0000314}}
+p {
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_reset\.scss}line{font-family:\0000317}}
+* {
+  box-sizing: border-box;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_general\.scss}line{font-family:\000031}}
+.introduce, .gallery, .logo-block, .forma {
+  padding: 30px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_general\.scss}line{font-family:\000034}}
+.general-title, .general-title-small, .introduce__logo, .introduce__header, .team .grid-container-team .team-wrapper .hint__title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_general\.scss}line{font-family:\000039}}
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_general\.scss}line{font-family:\0000313}}
+.general-title {
+  text-align: center;
+  font-size: 38px;
+  margin-bottom: 15px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_general\.scss}line{font-family:\0000321}}
+.general-descr {
+  line-height: 30px;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_general\.scss}line{font-family:\0000329}}
+.general-title-small {
+  text-align: center;
+  letter-spacing: 0.06em;
+  font-size: 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_general\.scss}line{font-family:\0000335}}
+.general-descr-small {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: gray;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_general\.scss}line{font-family:\0000343}}
+.services .grid__container-services .img-wrapper .servise-text .service-title, .services .grid__container-services .img-wrapper .servise-text .service-descr, .services .grid__container-services .img-wrapper .servise-text .more {
+  font-family: 'Merriweather', serif;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_general\.scss}line{font-family:\0000346}}
+.general-descr, .general-descr-small, .button, .forma__block input::placeholder, .forma__text, .forma__link, .footer__text, .footer__descr {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_general\.scss}line{font-family:\0000351}}
+.gray-block {
+  max-width: 479px;
+  height: 390px;
+  background-color: #eff0f2;
+  text-align: center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_general\.scss}line{font-family:\0000357}}
+.cursive {
+  font-weight: 400;
+  font-style: italic;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_button\.scss}line{font-family:\000031}}
+.button {
+  width: 232px;
+  height: 53px;
+  border: 2px solid #000000;
+  border-radius: 2px;
+  letter-spacing: 0.12em;
+  cursor: pointer;
+  outline: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_button\.scss}line{font-family:\0000310}}
+.button_introduce {
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_button\.scss}line{font-family:\0000313}}
+.button_forma {
+  margin-top: 100px;
+  background-color: #76f4ea;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_introduce\.scss}line{font-family:\000031}}
+.introduce {
+  min-height: 500px;
+  background-color: #eaebed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_introduce\.scss}line{font-family:\0000310}}
+.introduce header {
+  display: flex;
+  justify-content: space-between;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_introduce\.scss}line{font-family:\0000314}}
+.introduce__logo {
+  border: 4px solid black;
+  width: 62px;
+  padding: 4px 0;
+  text-align: center;
+  font-size: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_introduce\.scss}line{font-family:\0000321}}
+.introduce__logo .seacolor {
+  color: #76f4ea;
+  font-size: 12px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_introduce\.scss}line{font-family:\0000326}}
+.introduce__header {
+  text-align: center;
+  color: #505050;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_introduce\.scss}line{font-family:\0000330}}
+.introduce__header .b-g-blue {
+  background-color: rgba(118, 244, 234, 0.4);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_introduce\.scss}line{font-family:\0000336}}
+.introduce__gamburger .stick {
+  width: 28px;
+  height: 3px;
+  background-color: #505050;
+  margin-bottom: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_introduce\.scss}line{font-family:\0000343}}
+.introduce__img {
+  width: 65px;
+  position: absolute;
+  right: 100px;
+  bottom: 100px;
+}
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_introduce\.scss}line{font-family:\0000343}}
+  .introduce__img {
+    display: none;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_about\.scss}line{font-family:\000031}}
+.about-us {
+  background-color: #f8fafa;
+  min-height: 600px;
+  padding: 30px 30px 70px 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_about\.scss}line{font-family:\000035}}
+.about-us__text {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_about\.scss}line{font-family:\000038}}
+.about-us__title2 {
+  margin-bottom: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_about\.scss}line{font-family:\0000311}}
+.about-us__wrapper {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_about\.scss}line{font-family:\0000319}}
+.about-us__slider {
+  margin-bottom: 40px;
+  justify-self: start;
+  align-self: start;
+}
+@media screen and (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_about\.scss}line{font-family:\0000319}}
+  .about-us__slider {
+    justify-self: center;
+    align-self: center;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_about\.scss}line{font-family:\0000328}}
+.about-us__img {
+  width: 80%;
+  height: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_gallery\.scss}line{font-family:\000031}}
+.gallery {
+  min-height: 600px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_gallery\.scss}line{font-family:\000034}}
+.gallery .grid__container {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(250px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(250px, 1fr));
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+@media screen and (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_gallery\.scss}line{font-family:\000034}}
+  .gallery .grid__container {
+    grid-template-columns: repeat(2, minmax(250px, 400px));
+  }
+}
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_gallery\.scss}line{font-family:\000034}}
+  .gallery .grid__container {
+    grid-template-columns: 400px;
+  }
+}
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_gallery\.scss}line{font-family:\0000317}}
+  .gallery .grid__container .wrapper {
+    justify-self: center;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_gallery\.scss}line{font-family:\0000323}}
+.gallery .gallery__img {
+  width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_services\.scss}line{font-family:\000031}}
+.services {
+  min-height: 600px;
+  background-color: #f9fbfb;
+  padding: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_services\.scss}line{font-family:\000035}}
+.services .grid__container-services {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
+  grid-template-rows: repeat(3, 300px);
+  gap: 10px;
+  justify-content: stretch;
+}
+@media screen and (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_services\.scss}line{font-family:\000035}}
+  .services .grid__container-services {
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+  }
+}
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_services\.scss}line{font-family:\000035}}
+  .services .grid__container-services {
+    grid-template-columns: minmax(200px, 1fr);
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_services\.scss}line{font-family:\0000318}}
+.services .grid__container-services .blue-block {
+  width: 100%;
+  height: 300px;
+  background-color: #76f4ea;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px 20px;
+  justify-self: center;
+  grid-column: 1/3;
+}
+@media screen and (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_services\.scss}line{font-family:\0000318}}
+  .services .grid__container-services .blue-block {
+    grid-column: 1/3;
+  }
+}
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_services\.scss}line{font-family:\0000318}}
+  .services .grid__container-services .blue-block {
+    grid-column: 1/4;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_services\.scss}line{font-family:\0000333}}
+.services .grid__container-services .img-wrapper {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_services\.scss}line{font-family:\0000335}}
+.services .grid__container-services .img-wrapper .servise-text {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  color: #ffff;
+}
+@media screen and (max-width: 576px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_services\.scss}line{font-family:\0000335}}
+  .services .grid__container-services .img-wrapper .servise-text {
+    top: 40%;
+    left: 5%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_services\.scss}line{font-family:\0000345}}
+.services .grid__container-services .img-wrapper .servise-text .service-title {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_services\.scss}line{font-family:\0000351}}
+.services .grid__container-services .img-wrapper .servise-text .service-descr {
+  font-size: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_services\.scss}line{font-family:\0000355}}
+.services .grid__container-services .img-wrapper .servise-text .more {
+  margin-top: 40px;
+  font-weight: 400;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_services\.scss}line{font-family:\0000359}}
+.services .grid__container-services .img-wrapper .servise-text .more .icon- {
+  margin-left: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_services\.scss}line{font-family:\0000364}}
+.services .grid__container-services .img-wrapper .services__img {
+  width: 100%;
+  height: 100%;
+}
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_services\.scss}line{font-family:\0000364}}
+  .services .grid__container-services .img-wrapper .services__img {
+    grid-column: 1/4;
+  }
+}
+@media screen and (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_services\.scss}line{font-family:\0000372}}
+  .services .grid__container-services .img-wrapper1 {
+    grid-column: 3/4;
+  }
+}
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_services\.scss}line{font-family:\0000372}}
+  .services .grid__container-services .img-wrapper1 {
+    grid-column: 1/4;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_services\.scss}line{font-family:\0000380}}
+.services .grid__container-services .img-wrapper2 {
+  grid-column: 1/3;
+}
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_services\.scss}line{font-family:\0000380}}
+  .services .grid__container-services .img-wrapper2 {
+    grid-column: 1/4;
+  }
+}
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_services\.scss}line{font-family:\0000386}}
+  .services .grid__container-services .img-wrapper3 {
+    grid-column: 1/4;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_services\.scss}line{font-family:\0000392}}
+.services .grid__container-services .img-wrapper4 {
+  grid-column: 1/2;
+}
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_services\.scss}line{font-family:\0000392}}
+  .services .grid__container-services .img-wrapper4 {
+    grid-column: 1/4;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_services\.scss}line{font-family:\0000398}}
+.services .grid__container-services .img-wrapper5 {
+  grid-column: 2/4;
+}
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_services\.scss}line{font-family:\0000398}}
+  .services .grid__container-services .img-wrapper5 {
+    grid-column: 1/4;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_team\.scss}line{font-family:\000031}}
+.team {
+  min-height: 500px;
+  padding: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_team\.scss}line{font-family:\000034}}
+.team__img {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_team\.scss}line{font-family:\000037}}
+.team .grid-container-team {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(auto, 1fr));
+  gap: 30px;
+  justify-content: center;
+}
+@media screen and (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_team\.scss}line{font-family:\000037}}
+  .team .grid-container-team {
+    grid-template-columns: repeat(2, minmax(auto, 1fr));
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_team\.scss}line{font-family:\0000318}}
+.team .grid-container-team .team-wrapper {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_team\.scss}line{font-family:\0000320}}
+.team .grid-container-team .team-wrapper .hint {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 50%;
+  transform: translateX(-50%);
+  line-height: 30px;
+  width: 90%;
+  background-color: #76f4ea;
+  box-shadow: 3px 6px 16px 0px rgba(19, 19, 21, 0.18);
+  padding: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_team\.scss}line{font-family:\0000331}}
+.team .grid-container-team .team-wrapper .hint:before {
+  content: '';
+  position: absolute;
+  top: -9%;
+  left: 5%;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 20px solid #76f4ea;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_team\.scss}line{font-family:\0000343}}
+.team .grid-container-team .team-wrapper .hint .hint-descr {
+  font-size: 15px;
+  line-height: 20px;
+}
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_team\.scss}line{font-family:\0000343}}
+  .team .grid-container-team .team-wrapper .hint .hint-descr {
+    font-size: 10px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_team\.scss}line{font-family:\0000350}}
+.team .grid-container-team .team-wrapper .hint .icons {
+  margin-top: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_team\.scss}line{font-family:\0000352}}
+.team .grid-container-team .team-wrapper .hint .icons .icon {
+  margin-right: 10px;
+  font-size: 13px;
+}
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_team\.scss}line{font-family:\0000352}}
+  .team .grid-container-team .team-wrapper .hint .icons .icon {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_team\.scss}line{font-family:\0000360}}
+  .team .grid-container-team .team-wrapper .hint__title {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_comments\.scss}line{font-family:\000031}}
+.comments {
+  background-color: #f9fbfb;
+  min-height: 680px;
+  padding: 30px 30px 100px 30px;
+}
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_comments\.scss}line{font-family:\000031}}
+  .comments {
+    padding-bottom: 120px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_comments\.scss}line{font-family:\000038}}
+.comments__text {
+  width: 100%;
+  padding: 70px 30px;
+  background-color: #e9eaec;
+  border-radius: 3px;
+  position: relative;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_comments\.scss}line{font-family:\0000315}}
+.comments__text .button-group {
+  position: absolute;
+  right: 0;
+  bottom: -30%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_comments\.scss}line{font-family:\0000319}}
+.comments__text .button-group .arrow {
+  display: inline-block;
+  width: 53px;
+  height: 53px;
+  box-shadow: 3px 7px 11px 0px rgba(19, 19, 21, 0.05);
+  border-radius: 3px;
+  text-align: center;
+  padding-top: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_comments\.scss}line{font-family:\0000327}}
+.comments__text .button-group .arrow__img {
+  width: 25px;
+  height: 25px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_comments\.scss}line{font-family:\0000332}}
+.comments__text .button-group .arrow1 {
+  background-color: #ffffff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_comments\.scss}line{font-family:\0000335}}
+.comments__text .button-group .arrow2 {
+  background-color: #76f4ea;
+  margin-left: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_comments\.scss}line{font-family:\0000341}}
+.comments__title2 {
+  margin-bottom: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_comments\.scss}line{font-family:\0000344}}
+.comments__descr2 {
+  line-height: 25px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_comments\.scss}line{font-family:\0000347}}
+.comments__wrapper {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  justify-content: start;
+  align-items: center;
+  gap: 15px;
+}
+@media screen and (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_comments\.scss}line{font-family:\0000347}}
+  .comments__wrapper {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_comments\.scss}line{font-family:\0000347}}
+  .comments__wrapper {
+    gap: 55px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_comments\.scss}line{font-family:\0000360}}
+.comments__wrapper .gray-block {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_comments\.scss}line{font-family:\0000362}}
+.comments__wrapper .gray-block .block-circle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_comments\.scss}line{font-family:\0000366}}
+.comments__wrapper .gray-block .block-circle .circle {
+  margin-top: 25px;
+  width: 10px;
+  height: 10px;
+  background-color: #d0d0d0;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_comments\.scss}line{font-family:\0000374}}
+.comments__wrapper .gray-block .block-circle .circle2 {
+  background-color: #76f4ea;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_comments\.scss}line{font-family:\0000381}}
+.comments__slider {
+  justify-self: start;
+  align-self: start;
+}
+@media screen and (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_comments\.scss}line{font-family:\0000381}}
+  .comments__slider {
+    justify-self: center;
+    align-self: center;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_comments\.scss}line{font-family:\0000390}}
+.comments__img {
+  width: 90%;
+  height: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_logo-block\.scss}line{font-family:\000031}}
+.logo-block {
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 576px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_logo-block\.scss}line{font-family:\000031}}
+  .logo-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_logo-block\.scss}line{font-family:\000038}}
+.logo-block__lower {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_logo-block\.scss}line{font-family:\000038}}
+  .logo-block__lower {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_forma\.scss}line{font-family:\000031}}
+.forma {
+  background-image: url(../src/img/christmas.png);
+  min-height: 550px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_forma\.scss}line{font-family:\000035}}
+.forma__wrapper {
+  display: grid;
+  grid-template-columns: 55% 45%;
+  gap: 25px;
+  justify-content: center;
+}
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_forma\.scss}line{font-family:\000035}}
+  .forma__wrapper {
+    grid-template-columns: 100%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_forma\.scss}line{font-family:\0000314}}
+.forma__block {
+  height: 410px;
+  opacity: 0.7;
+  background-color: #021623;
+  box-shadow: 0px 0px 30px 0px rgba(21, 21, 21, 0.11);
+  padding: 30px 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_forma\.scss}line{font-family:\0000321}}
+.forma__block input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid rgba(100, 100, 100, 0.2);
+  background-color: transparent;
+  height: 50px;
+  outline: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_forma\.scss}line{font-family:\0000328}}
+.forma__block input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_forma\.scss}line{font-family:\0000334}}
+.forma__text {
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_forma\.scss}line{font-family:\0000338}}
+.forma__text_last {
+  margin-top: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_forma\.scss}line{font-family:\0000342}}
+.forma__link {
+  color: rgba(255, 255, 255, 0.5);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_forma\.scss}line{font-family:\0000346}}
+.forma__map {
+  width: 100%;
+  margin-top: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_footer\.scss}line{font-family:\000031}}
+.footer {
+  min-height: 250px;
+  background-color: #262b2e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_footer\.scss}line{font-family:\000035}}
+.footer__text {
+  font-size: 20px;
+  color: #ffff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_footer\.scss}line{font-family:\0000310}}
+.footer__social {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_footer\.scss}line{font-family:\0000314}}
+.footer__social .social-square {
+  width: 46px;
+  height: 40px;
+  background-color: #8a8a8a;
+  text-align: center;
+  padding-top: 10px;
+  margin-right: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_footer\.scss}line{font-family:\0000321}}
+.footer__social .social-square:first-of-type {
+  background-color: #76f4ea;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_footer\.scss}line{font-family:\0000324}}
+.footer__social .social-square .social {
+  color: #ffff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natakolomoyets\/Desktop\/homework\/practice\/src\/sass\/_footer\.scss}line{font-family:\0000329}}
+.footer__descr {
+  margin-top: 15px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/*# sourceMappingURL=main.css.map */

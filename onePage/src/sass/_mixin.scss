@@ -1,0 +1,31 @@
+@mixin flex ($fd: row, $jc: flex-start, $ai: stretch) {
+    display: flex;
+    justify-content: $jc;
+    align-items: $ai;
+    flex-direction: $fd;
+}
+
+@mixin gray-block {
+    background-color: $gray;
+    border-radius: 14px;
+}
+
+@mixin button {
+    border-radius: 8px;
+    background-color: $gray;
+    border: 2px solid $black;;
+    width: 120px;
+    height: 40px;
+    font-family: $base-fonts;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+    color: $black;
+    text-align: center;
+    padding: 12px 30px;
+    &_fill {
+        background-color: $black;
+        color: $white;
+    }
+}

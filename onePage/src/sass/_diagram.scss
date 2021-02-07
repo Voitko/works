@@ -1,0 +1,168 @@
+.diagram {
+    margin-top: 40px;
+    position: relative;
+    .diagram-week {
+        margin-left: 40px;
+        @include flex (row, space-between, center);
+        .diagram__text {
+            .circle {
+                display: inline-block;
+                width: 12px;
+                height: 12px;
+                background-color: $black;
+                border-radius: 100%;
+            }
+            .first__circle {
+                position: absolute;
+                left: 4%;
+                bottom: 17%;
+            }
+            .second__circle {
+                position: absolute;
+                left: 18%;
+                bottom: 47%;
+            } 
+            .third__circle {
+                position: absolute;
+                left: 33%;
+                bottom: 65%;
+            }
+            .fourth__circle {
+                position: absolute;
+                left: 52%;
+                bottom: 39%;
+            }
+            .fifth__circle {
+
+                position: absolute;
+                right: 30%;
+                top: -4%;
+            }
+            .sixth__circle  {
+                position: absolute;
+                right: 19%;
+                top: 16%;
+            }
+            .seventh__circle {
+                position: absolute;
+                right: 6%;
+                top: 27%;
+            }
+            .hint {
+                display: inline-block;
+                width: 50px;
+                height: 27px;
+                background-color: #e8e3e3;
+                border-radius: 4px;
+                padding: 2px;
+                text-align: center;
+                box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.2);
+                
+            }
+            .first__hint {
+                position: absolute;
+                left: 2%;
+                bottom: 27%;
+            }
+            .second__hint {
+                position: absolute;
+                left: 16%;
+                bottom: 57%;
+            }
+            .third__hint {
+                position: absolute;
+                left: 31%;
+                bottom: 75%;
+            }
+            .fourth__hint {
+                position: absolute;
+                left: 50%;
+                bottom: 49%;
+            }
+            .fifth__hint {
+                position: absolute;
+                right: 27%;
+                top: -17%;
+            }
+            .sixth__hint {
+                position: absolute;
+                right: 15%;
+                top: 2%;
+            }
+            .seventh__hint {
+                position: absolute;
+                right: 2%;
+                top: 12%;
+            }
+            .triangle {
+                width: 0; 
+                height: 0;
+                border-left: 10px solid transparent;
+                border-right: 10px solid transparent;
+                border-top: 20px solid #e8e3e3;
+               
+            }
+            .first__triangle {
+                position: absolute;
+                left: 4%;
+                bottom: 23%;
+            }
+            .second__triangle {
+                position: absolute;
+                left: 18%;
+                bottom: 53%;
+            }
+            .third__triangle {
+                position: absolute;
+                left: 33%;
+                bottom: 71%;
+            }
+            .fourth__triangle {
+                position: absolute;
+                left: 53%;
+                bottom: 45%;
+            }
+            .fifth__triangle {
+                position: absolute;
+                right: 28%;
+                top: -12%;
+            }
+            .sixth__triangle {
+                position: absolute;
+                right: 16%;
+                top: 7.5%;
+            }
+            .seventh__triangle {
+                position: absolute;
+                right: 3%;
+                top: 17%;
+            }
+        }
+    }
+    .diagram-line-container {
+        position: relative;
+        width: 90%;
+    }
+    .diagram-container {
+        @include flex (row, space-between, center);
+        margin-bottom: 5%;
+        position: relative;
+    }
+    &__border {
+        border: 1px solid #F5F5F7;
+        width: 100%;
+        margin-left: 21px;
+    }
+    &__line {
+        position: absolute;
+        bottom: 18%;
+        width: 95%;
+        left: 5%;
+        height: 85%;
+        
+       
+    }
+    
+   
+    
+} 

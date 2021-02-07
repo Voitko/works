@@ -1,0 +1,19 @@
+@mixin flex($fd, $jc, $ai) {
+    display: flex;
+    flex-direction: $fd;
+    justify-content: $jc;
+    align-items: $ai;
+}
+$breakpoints: (
+    desktop: 1200px,
+    laptop: 992px,
+    tablet: 768px,
+    mobile: 576px
+);
+@mixin media($platform, $breakpoint) {
+    @if map-get($breakpoints, $platform) == $breakpoint {
+        @media screen and (max-width: $breakpoint) {
+            @content;
+        }
+    }
+}
