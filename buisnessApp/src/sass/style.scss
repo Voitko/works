@@ -1,0 +1,29 @@
+
+@import './basic/mixins';
+
+@import './basic/variables';
+@import './basic/reset';
+
+@import './blocks/titles';
+
+@import './blocks/buttons';
+
+@import './blocks/upper-block';
+@import './blocks/introduce';
+@import './blocks/advantages';
+
+@import './blocks/benefits';
+
+@import './blocks/options';
+@import './blocks/solution';
+
+@import './blocks/footer';
+
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap");
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+

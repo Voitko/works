@@ -1,0 +1,14 @@
+.options {
+    margin-top: 77px;
+    &__wrapper {
+        &-img {
+            display: flex;
+            height: 500px;
+            justify-content: center;
+
+        }
+    }
+    &__img {
+        width: 100%;
+    }
+}

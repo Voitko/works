@@ -1,0 +1,11 @@
+.benefits {
+    margin: 70px auto;
+    &-complex {
+        &__wrapper {
+            margin-top: 35px;
+            display: grid;
+            grid-template-columns: repeat(2, 50%);
+            justify-content: center;
+        }
+    }
+}

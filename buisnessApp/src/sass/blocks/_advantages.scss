@@ -1,0 +1,47 @@
+.advantages {
+    margin-top: 78px;
+    margin-bottom: 79px;
+    &__item-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__item {
+        padding: 0 0 50px 0;
+        position: relative;
+        width: 31%;
+        border: 1px solid rgba(0, 0, 0, 0.2);;
+    }
+    &__img {
+        display: block;
+        margin: 0 auto;
+    }
+    &__descr {
+        text-align: center;
+        width: 70%;
+        margin: 0 auto;
+        
+    }
+    &__question {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    &__arrow {
+        display: block;
+        margin: 0 auto;
+    }
+    .first {
+        margin-top: 49px;
+    }
+    &__title {
+        margin-top: 33px;
+        text-align: center;
+        font-size: 48px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .under-block {
+        margin-top: 37px;
+    }
+}
