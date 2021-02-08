@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Museo Sans 300 Light';
+    src: url('../fonts/.eot');
+    src: url('../fonts/.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/.woff') format('woff'),
+    url('../fonts/.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+    В файл стилей добавить:
+
+@font-face {
+font-family: 'fonts/Museo Sans 500 Medium';
+src: url('../fonts/MuseoSansCyrl-500.eot');
+src: url('../fonts/MuseoSansCyrl-500.eot?#iefix') format('embedded-opentype'),
+url('../fonts/MuseoSansCyrl-500.woff') format('woff'),
+url('../fonts/MuseoSansCyrl-500.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+    font-family: 'fonts/Museo Sans 700 Bold';
+    src: url('../fonts/MuseoSansCyrl-700.eot');
+    src: url('../fonts/MuseoSansCyrl-700.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MuseoSansCyrl-700.woff') format('woff'),
+    url('../fonts/MuseoSansCyrl-700.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+    @font-face {
+        font-family: 'Museo Sans 100 Thin';
+        src: url('../fonts/.eot');
+        src: url('../fonts/.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/.woff') format('woff'),
+        url('../fonts/.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        }
